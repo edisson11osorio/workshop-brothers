@@ -1,0 +1,15 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-li{
+    position: fixed;
+    list-style: none;
+}
+.nav-li ul{
+    display: inline;
+    text-decoration: none;
+}
+
+
+
+
