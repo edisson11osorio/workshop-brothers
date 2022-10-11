@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1__title{
+    font-family: 'Comforter Brush';
+}
+.h1__title-work{
+    position: relative;
+    margin-top: 8%;
+    font-size: 80px;
+    text-align: center;
+}
+
+.container__redes-icons{
+    position: relative;
+    margin-top: 20%;
+    left: 80px;
+}
+.container__services-icons{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}

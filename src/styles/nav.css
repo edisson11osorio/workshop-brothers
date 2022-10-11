@@ -1,11 +1,12 @@
-*{
+
+.ul__nav{
+    list-style: none;
     font-family: 'Courier New', Courier, monospace;
 }
-.nav-li{
-    position: fixed;
-    list-style: none;
-}
-.nav-li ul{
+.ul__nav-li{
+    position: relative;
+    left: 250%;
+    padding: 10px;
     display: inline;
     text-decoration: none;
 }
