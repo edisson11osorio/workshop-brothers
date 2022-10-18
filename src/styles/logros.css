@@ -1,0 +1,35 @@
+.container-logros{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-logros h2{
+    position: absolute;
+    margin-top: 65%;
+    left: 45%;
+    font-size: 50px;
+}
+.container-logros p{
+    position: absolute;
+    margin-top: 70%;
+    left: 37%;
+    font-size: 23px;
+}
+.logros-table{
+    display: flex;
+    min-width: 300px;
+    position: absolute;
+    margin-top: 75%;
+    width: 70%;
+    height: 30%;
+    border: solid 6px black;
+    left: 15%;
+}
+.logros-table__description{
+    position: absolute;
+    margin-top: 125%;
+    left: 20%;
+    width: 20%;
+    height: 35%;
+    border: solid 1px black;
+    border-radius: 15px;
+}

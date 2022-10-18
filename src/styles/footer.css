@@ -1,0 +1,16 @@
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-footer footer{
+    position: static;
+    border-top: 1px solid black;
+    margin-top: 160%;
+    width: 100%;
+    bottom: 0;
+}
+.footer-icons{
+    position: absolute;
+    margin-top: 40px;
+    left: 45%;
+}
