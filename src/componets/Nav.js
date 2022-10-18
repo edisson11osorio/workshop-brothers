@@ -12,10 +12,10 @@ function Nav() {
                 <Toolbar>
                        <div className="ul">
                             <ul className="ul__nav">
-                                <li className="ul__nav-li">Inicio</li>
-                                <li className="ul__nav-li">hola</li>
-                                <li className="ul__nav-li">gracias</li>
-                                <li className="ul__nav-li">adios</li>
+                                <li>Inicio</li>
+                                <li>hola</li>
+                                <li>gracias</li>
+                                <li>adios</li>
                             </ul>
                        </div>
                 </Toolbar>

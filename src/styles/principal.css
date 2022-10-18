@@ -13,12 +13,19 @@
 }
 
 .container__redes-icons{
-    position: relative;
+    position: absolute;
     margin-top: 20%;
     left: 80px;
 }
-.container__services-icons{
+.container__icons-services{
     position: relative;
-    text-align: center;
-    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    left: 20%;
+}
+.container_text-flex{
+    display: flex;
+    flex-direction: column;
+    
 }

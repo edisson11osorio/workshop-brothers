@@ -3,12 +3,12 @@
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
 }
-.ul__nav-li{
+.ul__nav li{
     position: relative;
-    left: 250%;
     padding: 10px;
+    left: 70rem;
     display: inline;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 

@@ -9,20 +9,27 @@ function Services(){
     const clases = styles()
     return(
         <div>
-            <BuildIcon className={clases.BuildIcon}></BuildIcon>
-            <FilterVintageIcon className={clases.FilterIcon}></FilterVintageIcon>
-            <FormatPaintIcon className={clases.PaintIcon}></FormatPaintIcon>
+            <div className="icons-services">
+                <BuildIcon className={clases.BuildIcon}></BuildIcon>
+                <FilterVintageIcon className={clases.FilterIcon}></FilterVintageIcon>
+                <FormatPaintIcon className={clases.PaintIcon}></FormatPaintIcon>
+            </div>
         <div className="container__text-services">
-            <p className="container__text-services--p">
-                hola a todos klsdngvsjdkngsdlkngsdkjgbsdgdfgdfgdf
-                hdfhdfghdfhgdfghbdf
-                dfhd
-                fhdhdfhdfhdfhdfhdfhdfhdfhdfhdfh
+            <p>
+              <b>REPARACIONES</b><br/>
+              Reparaciones generales,<br/>
+              reparaciones especiales<br/>
+              & partes antiguas
             </p>
             <p>
-                hpña mis perros
-                dhdfhdfhdfhdfhdfhdfhdfhdffffffffffffff
-                hdfhdfhdfhdfhdfhdfhdfhdfhdfhdfdf
+            Amplia variedad de telas,<br/>
+            incluyendo cueros vintage,<br/> 
+            & muchas opciones de colores<br/>
+            </p>
+            <p>
+             Pintura en aerosol, Stencilling <br/>
+             personalizado & amplia variedad <br/>
+             de trabajo artesanal
             </p>
         </div>
         </div>

@@ -1,9 +1,17 @@
-.container__text-services{
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 
-    Arial, sans-serifs;
-    display: inline;
+.icons-services{
+    position: absolute;
+    margin-top: 38%;
+    left: 25%;
 }
-.container__text-services--p{
+.container__text-services{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 20%;
+    margin-top: 48%;
+}
+.container__text-services p{
+    padding: 40px;
+    font-size: 25px;
 
 }
