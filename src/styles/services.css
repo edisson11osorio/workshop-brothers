@@ -1,16 +1,23 @@
+.container-services{
+    display: flex;
+    flex-grow: 1;
+}
+.container-services div{
+    background-color: #fc758c;
+}
 .icons-services{
     position: absolute;
     margin-top: 38%;
     left: 25%;
 }
-.container__text-services{
+.text-services{
     display: flex;
     flex-wrap: wrap;
     position: absolute;
     left: 20%;
     margin-top: 48%;
 }
-.container__text-services p{
+.text-services p{
     padding: 40px;
     font-size: 25px;
 

@@ -5,19 +5,19 @@ import Typography from '@material-ui/core/Typography';
 
 const images = [
   {
-    url: '/images/audi.jpg',
+    url: '/static/images/image-list/audi.jpg',
     title: 'Audi',
     width: '30%',
   },
   {
     url: '/static/images/image-list/burgers.jpg',
-    title: 'Burgers',
+    title: 'Mercedez',
     width: '30%',
   },
   {
     url: '/static/images/image-list/camera.jpg',
-    title: 'Camera',
-    width: '30%',
+    title: 'Mazda',
+    width: '40%',
   },
 ];
 
@@ -112,7 +112,7 @@ export default function ButtonBases() {
           <span
             className={classes.imageSrc}
             style={{
-              backgroundImage: `url(${image.url})`,
+              backgroundImage: `url(${images.url})`,
             }}
           />
           <span className={classes.imageBackdrop} />
