@@ -12,10 +12,11 @@ function Nav() {
                 <Toolbar>
                        <div className="ul">
                             <ul className="ul__nav">
-                                <li>Inicio</li>
-                                <li>hola</li>
-                                <li>gracias</li>
-                                <li>adios</li>
+                                <a href="#hola"><li>Inicio</li></a>
+                                <a href="#services"><li>Servicios</li></a>
+                                <a href="#services"><li>Logros</li></a>
+                                <a href="#services"><li>Contacto</li></a>
+                                <a href="#services"><li>Reservar online</li></a>
                             </ul>
                        </div>
                 </Toolbar>

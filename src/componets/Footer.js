@@ -2,7 +2,7 @@ import React from "react";
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import PinterestIcon from '@material-ui/icons/Pinterest';
-import styles from "../styles.js/Redes.styles"
+import styles from "../styles.js/Redes.styles.footer"
 import "../styles/footer.css"
 
 const Footer = () => {

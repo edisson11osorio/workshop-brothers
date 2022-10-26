@@ -2,20 +2,29 @@
     margin: 0;
     padding: 0;
 }
+.home{
+    position: absolute;
+    margin-top: 20PX;
+    width: 100%;
+    height: 145%;
+    background-size: 100%;
+    background-image: url('https://www.topgear.com/sites/default/files/news-listicle/image/2015/09/p13_0019_a4_rgb.jpg?w=1290&h=726');
+}
 .h1__title{
     font-family: 'Comforter Brush';
 }
 .h1__title-work{
-    position: relative;
-    margin-top: 8%;
-    font-size: 80px;
-    text-align: center;
+    position: absolute;
+    margin-top: 10%;
+    font-size: 100px;
+    line-height: 20px;
+    left: 30%;
 }
 
 .container__redes-icons{
     position: absolute;
-    margin-top: 20%;
-    left: 80px;
+    margin-top: 53%;
+    left: 42.5%;
 }
 .container__icons-services{
     position: relative;

@@ -10,6 +10,7 @@ function App() {
   return (
     <div className='Nav'>
       <Nav></Nav>
+    <section className='home'></section>
       <div className='h1__title'>
         <h1 className='h1__title-work'>
           WorkShop Brothers
@@ -23,10 +24,15 @@ function App() {
       <div className='container__services-icons'>
         <Services></Services>
       </div>
+      <section className='conted'></section>
 
       <div>
         <Logros></Logros>
       </div>
+
+      {/* <div>
+        <Form></Form>
+      </div> */}
 
       <div>
         <Footer></Footer>

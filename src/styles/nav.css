@@ -5,10 +5,17 @@
 }
 .ul__nav li{
     position: relative;
-    padding: 10px;
-    left: 70rem;
+    padding: 50px;
+    left: 35rem;
     display: inline;
     text-decoration: none; 
+}
+.ul__nav a{
+    text-decoration: none;
+    color: white;
+}
+.ul__nav a:hover{
+    color: gray;
 }
 
 

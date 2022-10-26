@@ -2,17 +2,26 @@ import { makeStyles } from "@material-ui/core";
 
 export default makeStyles({
     BuildIcon: {
-        width: '150px',
-        height: '150px',
-        paddingRight: '200px'
+        position: 'relative',
+        color: "white",
+        width: '120px',
+        height: '120px',
+        left: '52%'
     },
     FilterIcon: {
-        height: '150px',
-        width: '150px',
-        paddingRight: '150px'
+        position: 'relative',
+        color: "white",
+        height: '120px',
+        width: '120px',
+        paddingRight: '250px',
+        left: '102%'
+
     },
     PaintIcon: {
-        height: '150px',
-        width: '150px'
+        position: 'relative',
+        color: "white",
+        height: '120px',
+        width: '120px',
+        left: '116%'
     }
 })
